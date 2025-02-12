@@ -1,4 +1,4 @@
-FROM dpage/pgadmin4:8.4
+FROM dpage/pgadmin4:8.14@sha256:8a68677a97b8c8d1427dc915672a26d2c4a04376916a68256f53d669d6171be7
 
 # pgadmin4 sets user/group to pgadmin:pgadmin
 # We need root access on Dockerfile & docker-entrypoint.sh, lets put back
