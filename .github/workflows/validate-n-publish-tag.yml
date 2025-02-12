@@ -6,7 +6,7 @@ on:
 
 jobs:
   validate:
-    uses: anthochamp/dev-toolbox/.github/workflows/container-validate.yml@36d45ce9f8e590f39d29858f04d073f94ebbb711
+    uses: anthochamp/dev-toolbox/.github/workflows/container-validate.yml@e35442a89ca4052b3bce6cce81570def8a6db13c
 
   pre-publish:
     needs: validate
