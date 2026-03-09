@@ -14,4 +14,4 @@ if [ "$1" != "/entrypoint.sh" ]; then
 	exec "$@"
 fi
 
-exec runuser -u pgadmin -- "$@"
+exec su-exec pgadmin:pgadmin "$@"
