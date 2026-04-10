@@ -15,9 +15,16 @@ See [README.md](README.md) for full documentation and configuration reference.
 
 - `x.y-pgadmin4A.B.C`: Latest patch of `x.y` with pgAdmin4 `A.B.C`.
 - `x-pgadmin4A.B.C`: Latest minor+patch of `x` with pgAdmin4 `A.B.C`.
+- `x.y.z-pgadmin4A.B`: Version `x.y.z` with latest patch of pgAdmin4 `A.B` (only latest container version updated).
+- `x.y-pgadmin4A.B`: Latest patch of `x.y` with latest patch of pgAdmin4 `A.B`.
+- `x-pgadmin4A.B`: Latest minor+patch of `x` with latest patch of pgAdmin4 `A.B`.
+- `x.y.z-pgadmin4A`: Version `x.y.z` with latest minor+patch of pgAdmin4 `A` (only latest container version updated).
+- `x.y-pgadmin4A`: Latest patch of `x.y` with latest minor+patch of pgAdmin4 `A`.
+- `x-pgadmin4A`: Latest minor+patch of `x` with latest minor+patch of pgAdmin4 `A`.
 - `x.y.z`: Version `x.y.z` with latest pgAdmin4 (only latest container version updated).
-- `x.y`: Latest patch of `x.y` with latest pgAdmin4 (only latest container major.minor updated).
-- `x`: Latest minor+patch of `x` with latest pgAdmin4 (only latest container major updated).
+- `x.y`: Latest patch of `x.y` with latest pgAdmin4.
+- `x`: Latest minor+patch of `x` with latest pgAdmin4.
+- `pgadmin4A.B.C`: Latest container with pgAdmin4 `A.B.C`.
 - `pgadmin4A.B`: Latest container with latest patch of pgAdmin4 `A.B`.
 - `pgadmin4A`: Latest container with latest minor+patch of pgAdmin4 `A`.
 - `latest`: Latest `x.y.z-pgadmin4A.B.C` tag.
